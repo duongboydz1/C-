@@ -1,19 +1,50 @@
-#include<stdio.h>  
-#include<conio.h>  
+#include <stdio.h>
+#include <stdlib.h>
 
-int main()  
-{  
- int num1=0,num2=1,num3,i,sum;  
-  
- printf("Nhap so phan tu trong day Fibonacci: ");  
- scanf("%d",&sum);  
- printf("\n%d %d",num1,num2);  
-  
- for(i=2;i<sum;++i)   
- {  
-  num3=num1+num2;  
-  printf(" %d",num3);  
-  num1=num2;  
-  num2=num3;  
- }  
+void main()
+
+{
+int arr[10], i, sum = 0, avg, min, max;
+int count1 = 0, count2 = 0;
+
+printf("Nhap 10 gia tri:\n");
+for(i = 0; i < 10; i++)
+{
+scanf("%d", &arr[i]);
+sum += arr[i];
+}
+
+printf("Tong gia tri cac phan tu la: %d\n", sum);
+avg = sum / 10;
+printf("Trung binh cong cac phan tu la:%d\n", avg);
+
+max = arr[0];
+min = arr[0];
+for(i = 0; i < 10; i++)
+{
+if(max <= arr[i])
+{
+max = arr[i];
+}
+if(min >= arr[i])
+{
+min = arr[i];
+}
+}
+printf("So lon nhat la: %d\n", max);
+printf("so be nhat la: %d\n", min);
+
+for(i = 0; i < 10; i++)
+{
+if(arr[i] == max)
+{
+count1 += 1;
+}
+if(arr[i] == min)
+{
+count2 += 1;
+}
+}
+printf("Gia tri lon nhat xuat hien %d lan.\n", count1);
+printf("Gia tri nho nhat xuat hien %d lan.\n", count2);
 }
