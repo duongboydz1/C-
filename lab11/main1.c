@@ -1,12 +1,30 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
+
 {
-	int i;
-	int arr[10];		
-	for(i=0; i<10; i+=2)
+	int a, b, c;
+	printf("cac canh cua tam giac\n ");
+	printf("nhap a :");
+	scanf ("%d",&a);
+	printf("nhap b : ");
+	scanf("%d",&b);
+	printf ("nhap c :");
+	scanf("%d",&c);
+	
+	GetArea(a,b,c);
+}
+void GetArea(int a,int b,int c)
+{
+	float p,s;
+	p=a+b+c/2;
+	if (a+b >c && a+c >b && b+c >a)
 	{
-		printf("\nIn ra so co vi tri chan:");
-		scanf("%d",&i);
-		
+		s=sqrt(p*(p-a)*(p-b)*(p-c));
+		printf ("S tam giac la :%f",s);		
 	}
+	else 
+	{
+		printf("3 canh khong tao thanh tam giac");
+	}
+	return (0);		
 }

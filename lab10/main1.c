@@ -1,18 +1,16 @@
 #include <stdio.h>
-void main()
+main()
 {
-	int age, i;
-
-	char name[20];
-	printf("\nten:", name);
-
-	gets(name);
-
-	printf("\nSo tuoi cua ban la:", age);
-	scanf("%d", &age);
-
-	for(i=0; i<age; i++)
-	{
-	printf("ten cua ban: %s\n", name, i+1);
-	}
+	int i;
+	for(i = 1; i <=10; i++)
+	printf("\nSquare of %d is %d", i, square(i));
 }
+
+squarer (int x)
+/*int x; */
+{
+	int j;
+	j= x*x;
+	return (j);
+}
+
