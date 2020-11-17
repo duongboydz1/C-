@@ -3,6 +3,7 @@ main()
 {
   int a[10];
   int i, n;
+  printf("Enter 10 integers:\n");
   for(i = 0;i < 10;i ++)
   {
   	printf("Mang a[%d]",i + 1);
