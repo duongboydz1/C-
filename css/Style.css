@@ -1,0 +1,280 @@
+                                         /*PART-1*/
+#anh{
+    height: 550px;
+    width: 100%;
+}
+.head{
+    top: 50px;
+}
+.input_type{
+    margin-left: 300px;
+}
+
+.containerr{
+    border: 1px solid  #cac8c8;
+    background-color: #c6c8ca;
+}
+.nav_item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 60px;
+}
+.login_type{
+    margin-left: 200px;
+    bottom: 10px;
+}
+.input_control{
+    width:400px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+                                             /*PART-2*/
+.main{
+    padding: 40px 0;
+}
+.col-md-3{
+    margin-bottom: 40px;
+}
+.album-poster{
+    position: relative;
+    display: block;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px #3d2173a1;
+    transition: all ease 0.4s;
+}
+.album-poster:hover{
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);
+}
+h3{
+    font-size: 34px;
+    margin-bottom: 34px;
+    border-bottom: 4px solid #e6e6e6;
+    padding-bottom: 15px;
+}
+p{
+    font-size: 15px;
+}
+h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 700;
+}
+                                         /*PART-4*/
+.album{
+    padding: 40px 0;
+}
+.col-md-3{
+    margin-bottom: 40px;
+}
+.album-hot{
+    position: relative;
+    display: block;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px #3d2173a1;
+    transition: all ease 0.4s;
+}
+.album-hot:hover{
+    box-shadow: none;
+    transform: scale(0.98) translateY(5px);
+}
+h3{
+    font-size: 34px;
+    margin-bottom: 34px;
+    border-bottom: 4px solid #e6e6e6;
+    padding-bottom: 15px;
+}
+p{
+    font-size: 15px;
+}
+h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 700;
+}
+                                        /*PART-5*/
+.box-ranktable {
+ background: rgba(0, 0, 0, 0) url(http://vip.img.cdn.keeng.vn/webv6/images/bg_rank.jpg) no-repeat scroll left top;
+ padding: 40px 0;
+ margin-bottom: 50px;
+ background-size: cover;
+}
+
+
+
+.box-ranktable.box-ranktable_1 {
+ background: #fff;
+ margin-bottom: 0px;
+}
+
+.box-ranktable.box-ranktable_1 .bre-h2-title {
+ font-size: 22pt;
+ font-weight: normal;
+ color: #454545;
+}
+
+.box-ranktable.box-ranktable_1 a {
+ font-weight: normal;
+ color: #454545;
+}
+
+.box-ranktable.box-ranktable_1 .bre-item {
+ border-bottom: 1px solid #f1f1f1;
+ display: inline-block;
+ width: 100%;
+ padding: 8px 0px;
+}
+
+.box-ranktable.box-ranktable_1 .bre-item .bre-info .lazy-load-image-background {
+ display: block !important;
+}
+
+.box-ranktable.box-ranktable_1 .bre-item .bre-info a {
+ font-size: 15px;
+ font-weight: bold;
+}
+
+.box-ranktable.box-ranktable_1 .bre-stt {
+ font-weight: bold;
+ font-size: 18px;
+ color: #454545;
+ width: 20px;
+}
+
+.box-ranktable.box-ranktable_1 .bre-info-h3 a {
+ font-weight: bold;
+ font-size: 15px;
+ color: #454545;
+}
+
+.box-ranktable.box-ranktable_1 .bre-info-singer {
+ color: #acacac;
+}
+
+.box-ranktable.box-ranktable_1 .bre-title {
+ color: #454545;
+}
+
+.box-ranktable.box-ranktable_1 .bre-title a {
+ font-weight: normal;
+ font-size: 24px;
+}
+
+.box-ranktable.box-ranktable_1 .bre-item-top .bre-info {
+ color: #fff;
+}
+
+.box-ranktable.box-ranktable_1 .kv-img {
+ position: relative;
+ float: left;
+ margin: 13px;
+}
+.bre-stt {
+ width: 15px;
+}
+
+.ka-lnk .number-no {
+ font-size: 15px;
+ font-weight: bold;
+ display: inline-block;
+ width: 20px;
+}
+
+#bxhVideo {
+ margin-top: 15px;
+ padding: 0 !important;
+}
+
+.song-share-audio {
+ margin-left: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            /*Login*/
+.login{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+
+}
+h2{
+    color: #868787;
+    font-family: sans-serif;
+}
+.login input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+.login button{
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #45a049;
+    color: white;
+}
+.login button:hover{
+    font-size: 15px;
+}
+body{
+    background-position: center;
+}
+
+.containerr{
+    background: rgba(0, 0, 0, 0) url(http://vip.img.cdn.keeng.vn/webv6/images/bg_rank.jpg) no-repeat scroll left top;
+    background-size: cover;
+}
+
+
+
+
+
